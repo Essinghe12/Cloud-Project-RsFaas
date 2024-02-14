@@ -22,8 +22,7 @@ The request is then routed, so the function is executed and the script encrypts 
 
 ## 3. Solution Implementation
 <img width="960" alt="image" src="https://github.com/fils07/RsFaasDescription/assets/59063893/a30d35f9-7cbd-4013-861f-38c3257a33e8">
-Une fois que la requête est interceptée, la clé secrète est extraite et la fonction déchiffré avant d'être executée et le résultat renvoyé à l'utilisateur
-
+Once the request has been intercepted, the secret key is extracted and the function decrypted before being executed and the result returned to the user.
 
 ## 4. Video Demonstration
 [](url)
