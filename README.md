@@ -12,9 +12,9 @@ Le FaaS, ou « Function-as-a-Service », est un service de cloud computing qui p
 ![Faas implementation ](https://github.com/Essinghe12/Cloud-Project-RsFaas/assets/74486234/bb8c1a79-2b18-4ed4-8a26-02ed883cae95)
 
 
-Le problème d'exécution anonyme concerne la nécessité de permettre l'exécution de fonctions serverless de manière sécurisée sans divulguer les informations sensibles sur les opérations effectuées. Il s'agit de pouvoir continuer à se reposer sur les services de Faas offert par les CSP (Cloud Service Provider), tout en garantissant la confidentialité du code uploadé. 
-Cela implique de garantir la confidentialité et l'intégrité des processus d'exécution. 
-La préocupation principale etant de renforcer les domaines suivants :
+Le problème d'``exécution anonyme`` concerne la nécessité de permettre l'exécution de fonctions serverless de manière sécurisée sans divulguer les informations sensibles sur les opérations effectuées. Il s'agit de pouvoir se reposer sur les services de Faas tout en garantissant la confidentialité du code uploadé mais aussi se prémunir contre les attaques par reverse engeinering qui consisterait à analyser des changements effectués sur les ressources (mémoire, processeur etc...) afin de reconstruire la fonction. 
+La solution adoptée dans notre cas est le ``chiffrement de la fonction`` avant de l'envoyer à la plateforme de Faas, ensuite à l'éxécution la ``randomisation de l'état de la mémoire`` après chaque instruction. 
+
 ![problem overview](https://github.com/Essinghe12/Cloud-Project-RsFaas/assets/74486234/7b6fc024-8693-43f1-a85b-3770812d57b6)
 
 ## 1. Architecture 
