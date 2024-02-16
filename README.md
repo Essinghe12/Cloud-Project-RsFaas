@@ -1,5 +1,8 @@
 # Cloud-Project-RsFaas
 
+## 1. Description du problème
+![problem overview](https://github.com/Essinghe12/Cloud-Project-RsFaas/assets/74486234/7b6fc024-8693-43f1-a85b-3770812d57b6)
+
 ## 1. Architecture 
 For our project, we chose the OpenFaas framework for its ease of installation and use.
 Adding a function to OpenFaas takes just a few simple steps:
